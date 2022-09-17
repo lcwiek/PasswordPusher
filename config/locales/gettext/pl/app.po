@@ -39,7 +39,7 @@ msgstr "Opinia wysłana!"
 msgid ""
 "Could not send feedback.  Did you pass the Humanity Test?  Valid email?  Try a"
 "gain?"
-msgstr ""
+msgstr "Nie można wysłać odpowiedzi. Zdałeś poprawnie test? Wpisałeś poprawnie maila? Spróbuj ponownie"
 
 #: ../../../app/controllers/passwords_controller.rb:170
 msgid "That push doesn't belong to you."
@@ -143,7 +143,7 @@ msgstr "Podgląd"
 #: ../../../app/views/dashboard/active.html.erb:45
 #: ../../../app/views/dashboard/expired.html.erb:45
 msgid "Audit"
-msgstr "Audyt"
+msgstr "Szczegóły"
 
 #: ../../../app/views/dashboard/expired.html.erb:1
 #: ../../../app/views/dashboard/expired.html.erb:13
@@ -294,21 +294,21 @@ msgstr ""
 msgid ""
 "This token is specific to your account.  It can be used with command line appl"
 "ications, the JSON API, 3rd party integrations and more."
-msgstr ""
+msgstr "Ten token jest przypisany do Twojego konta. Dzięki niemu będziesz mógł nawiązać połączenie JSON API przez terminal lub aplikacje trzecie."
 
 #: ../../../app/views/devise/registrations/token.html.erb:7
 msgid "Make sure to keep this token secure.  It provides full access to your account."
-msgstr ""
+msgstr "Upewnij się, że token przechowujesz w bezpiecznym miejscu. Dzięki niemu masz pełny dostęp do konta."
 
 #: ../../../app/views/devise/registrations/token.html.erb:10
 msgid ""
 "If needed, you can regenerate a new token below which will invalidate this exi"
 "sting token."
-msgstr ""
+msgstr "W razie potrzeby możesz ponownie wygenerować nowy token, który unieważni obecny."
 
 #: ../../../app/views/devise/registrations/token.html.erb:15
 msgid "Your API token is blurred out.  Click below to reveal it."
-msgstr ""
+msgstr "Twoj API token jest zamazany. Kliknij aby odkryć."
 
 #: ../../../app/views/devise/registrations/token.html.erb:22
 #: ../../../app/views/pages/generate_key.html.erb:26
@@ -322,33 +322,34 @@ msgstr "Skopiuj do schowka"
 
 #: ../../../app/views/devise/registrations/token.html.erb:29
 msgid "To delete this token and regenerate a new one, use the button below."
-msgstr ""
+msgstr "Aby usunąć ten token i wygenerować nowy, użyj przycisku poniżej."
 
 #: ../../../app/views/devise/registrations/token.html.erb:32
 msgid ""
 "Note that this will invalidate any tools that may be using the existing key an"
 "d will have to be updated with the new token."
-msgstr ""
+msgstr "Spowoduje to unieważnienie istniejącego klucza we wszelkich narzędziach"
+" w których jest używany i będzie potrzeba ich ponownej konfiguracji."
 
 #: ../../../app/views/devise/registrations/token.html.erb:36
 msgid "Regenerate Token"
-msgstr ""
+msgstr "Wygeneruj nowy token"
 
 #: ../../../app/views/devise/registrations/token.html.erb:45
 msgid "Delete and generate a new API token?"
-msgstr ""
+msgstr "Usunąć i wygenerować nowy API token?"
 
 #: ../../../app/views/devise/registrations/token.html.erb:49
 msgid "This will delete this token and "
-msgstr ""
+msgstr "To usunie token i "
 
 #: ../../../app/views/devise/registrations/token.html.erb:50
 msgid "invalidate any tools that may be using it"
-msgstr ""
+msgstr "zablokuje wszelkie narzędzia, które mogą z niego korzystać"
 
 #: ../../../app/views/devise/registrations/token.html.erb:51
 msgid "A new token will be generated in its place."
-msgstr ""
+msgstr "W jego miejsce zostanie wygenerowany nowy token."
 
 #: ../../../app/views/devise/registrations/token.html.erb:52
 #: ../../../app/views/passwords/audit.html.erb:151
@@ -364,7 +365,7 @@ msgstr "Anuluj"
 
 #: ../../../app/views/devise/registrations/token.html.erb:56
 msgid "Delete & Regenerate"
-msgstr ""
+msgstr "Usuń i wygeneruj nowy"
 
 #: ../../../app/views/devise/sessions/new.html.erb:7
 #: ../../../app/views/feedbacks/new.html.erb:20
@@ -382,7 +383,7 @@ msgstr "Język"
 
 #: ../../../app/views/feedbacks/create.html.erb:1
 msgid "Thank you for your feedback!  We'll be in touch soon!"
-msgstr ""
+msgstr "Dzięki za odpowiedź! Będziemy w kontakcie!"
 
 #: ../../../app/views/feedbacks/new.html.erb:1
 #: ../../../app/views/feedbacks/new.html.erb:2
@@ -405,7 +406,7 @@ msgstr "Twoje imię"
 
 #: ../../../app/views/feedbacks/new.html.erb:29
 msgid "Humanity Test: What is 7 plus 2?"
-msgstr ""
+msgstr "Test: Ile jest 7 plus 2?"
 
 #: ../../../app/views/feedbacks/new.html.erb:34
 msgid ""
